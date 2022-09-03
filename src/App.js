@@ -3,7 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
+      
       <header className="app-header">
         <img src={logo} className="app-logo img-fluid" alt="logo" />
         <p>
