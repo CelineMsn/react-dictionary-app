@@ -1,9 +1,95 @@
-.app-logo{
+:roots {
+  --medium-green: #9fd3c7;
+  --light-blue: #d9ecf0;
+  --medium-blue: #76c2e4;
+  --dark-blue: #1f7fa8;
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Roboto", sans-serif;
+  --radius: 15px;
+  --shadow: 8px 10px 12px rgba(54, 119, 143, 0.2);
+  --transition: 200ms;
+}
+body,
+.App {
+  max-width: 100%;
+}
+
+.app-background {
+  background-image: url(https://images.pexels.com/photos/1479120/pexels-photo-1479120.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px auto;
+}
+
+.app-logo {
   max-width: 200px;
   display: block;
   margin: 0 auto;
 }
 
-.app-header{
+.app-header {
   margin: 30px 5px;
+}
+
+section {
+  background-color: var(--light-blue);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  color: var(--dark-blue);
+  font-family: var(--font-body);
+  font-size: 13pt;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+a {
+  color: var(--medium-blue);
+}
+a:hover {
+  color: var(--dark-blue);
+  transition-duration: var(--transition);
+}
+.button {
+  background-color: var(--dark-blue);
+  border-radius: var(--radius);
+  color: var(--light-blue);
+}
+.button:hover {
+  background-color: var(--medium-blue);
+  color: var(--light-blue);
+  transition-duration: var(--transition);
+}
+.button:focus {
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+}
+.sr-logo {
+  border-radius: 100px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 12px;
+  max-width: 100%;
+  width: 350px;
+}
+@media (min-width: 768px) {
+  .App {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width: 1200px) {
+  .App {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
