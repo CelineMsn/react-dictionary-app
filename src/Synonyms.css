@@ -1,0 +1,7 @@
+.synonym {
+  display: inline-block;
+  margin-right: 40px;
+}
+.synonym::first-letter {
+  text-transform: uppercase;
+}
