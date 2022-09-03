@@ -12,6 +12,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
+        <br />
         <footer className="text-center">
           <small>Coded by CM </small>
         </footer>
