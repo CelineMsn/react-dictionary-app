@@ -1,14 +1,17 @@
 import React from "react";
 import "./Footer.css";
+import portfolio from "./img/portfolio.png";
 
 export default function Footer() {
   return (
     <section className="footer">
       <div className="row-fluid d-flex">
         <div className="col-5 footer-links text-start ps-2">
-          <span>
-            <i className="fa-solid fa-star"></i>{" "}
-          </span>
+            <img
+              src={portfolio}
+              className="app-logo img-fluid m-0"
+              alt="logo dictionary app celine"
+            />
           <a
             href="https://z-vizion.netlify.app/"
             target="_blank"
