@@ -1,0 +1,6 @@
+img {
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
