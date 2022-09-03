@@ -1,19 +1,37 @@
 import React from "react";
+import "./Results.css";
+import Phonetics from "./Phonetics";
 import Meaning from "./Meaning";
 
-
 export default function Results(props) {
-  if (props.results) {
+  if (props.data) {
     return (
-      <div className="Results">
-        <h2>{props.results.word}</h2>
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
-            </div>
-          );
-        })}
+      <div className="results">
+        <section>
+          <h2 className="result-word">{props.data.word}</h2>
+          {props.data.phonetics.map(function (phonetic, index) {
+            return (
+              <div key={index} className="d-flex">
+                <Phonetics data={phonetic} />
+              </div>
+            );
+          })}
+          <div className="button-container">
+            <a href="./#images" className="button images-link">
+              <i className="fa-solid fa-images"></i> See images for{" "}
+              <em>{props.data.word}</em>
+            </a>
+          </div>
+        </section>
+        <div>
+          {props.data.meanings.map(function (meaning, index) {
+            return (
+              <div key={index}>
+                <Meaning data={meaning} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   } else {
