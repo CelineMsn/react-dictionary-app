@@ -15,10 +15,10 @@ body,
 }
 
 .app-background {
-  background-image: url(https://images.pexels.com/photos/1479120/pexels-photo-1479120.jpeg);
+  background-color: ;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px auto;
+  padding: auto;
 }
 
 .app-logo {
@@ -32,15 +32,16 @@ body,
 }
 
 section {
-  background-color: var(--light-blue);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  background-color:rgba(234, 220, 201, 0.4);
+  border-radius: 15px;
+  box-shadow: 8px 10px 12px rgba(54, 119, 143, 0.2);
   color: var(--dark-blue);
   font-family: var(--font-body);
   font-size: 13pt;
   padding: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  
 }
 
 h1,

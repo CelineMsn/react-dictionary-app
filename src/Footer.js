@@ -4,14 +4,12 @@ import portfolio from "./img/portfolio.png";
 
 export default function Footer() {
   return (
-    <section className="footer">
+    <div className="footer">
       <div className="row-fluid d-flex">
-        <div className="col-5 footer-links text-start ps-2">
-            <img
-              src={portfolio}
-              className="app-logo img-fluid m-0"
-              alt="logo dictionary app celine"
-            />
+        <div className="col-5 footer-links text-start ps-5 mt-3">
+          <span>
+            <i className="fa-solid fa-book"></i>
+          </span>{" "}
           <a
             href="https://z-vizion.netlify.app/"
             target="_blank"
@@ -20,15 +18,12 @@ export default function Footer() {
             title="View website /portfolio"
           >
             Portfolio
-          </a>{" "}
+          </a>
         </div>
         <div className="col-2 react-logo-container text-center">
           <i className="fa-brands fa-react react-logo"></i>
         </div>
-        <div className="col-5 footer-links text-end pe-2">
-          <span>
-            <i className="fa-brands fa-github"></i>{" "}
-          </span>
+        <div className="col-5 footer-links text-end pe-5 mt-3">
           <a
             href="https://github.com/CelineMsn"
             target="_blank"
@@ -38,9 +33,12 @@ export default function Footer() {
           >
             OS code
           </a>{" "}
-          by CM
+          by CM{" "}
+          <span>
+            <i className="fa-brands fa-github"></i>
+          </span>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
