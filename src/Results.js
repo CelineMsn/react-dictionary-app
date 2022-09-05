@@ -8,7 +8,27 @@ export default function Results(props) {
     return (
       <div className="results">
         <section>
-          <h2 className="result-word">{props.data.word}</h2>
+          <div className="button-container text-center">
+            <a href="./#phonetics" className="btn jump-link">
+              <i className="small">Jump to </i>
+              <br /> Phonetics
+            </a>
+            <a href="./#definitions" className="btn jump-link">
+              <i className="small">Jump to </i>
+              <br />
+              Definitions
+            </a>
+            <a href="./#images" className="btn jump-link">
+              <i className="small">Jump to </i>
+              <br />
+              Images
+            </a>
+          </div>
+        </section>
+        <section>
+          <h2 className="result-word" id="phonetics">
+            {props.data.word}{" "}
+          </h2>
           {props.data.phonetics.map(function (phonetic, index) {
             return (
               <div key={index} className="d-flex">
@@ -16,14 +36,8 @@ export default function Results(props) {
               </div>
             );
           })}
-          <div className="button-container">
-            <a href="./#images" className="button images-link">
-              <i className="fa-solid fa-images"></i> See images for{" "}
-              <em>{props.data.word}</em>
-            </a>
-          </div>
         </section>
-        <div>
+        <div id="definitions">
           {props.data.meanings.map(function (meaning, index) {
             return (
               <div key={index}>

@@ -4,7 +4,6 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 
-
 //https://api.dictionaryapi.dev/api/v2/entries/en/<word>
 
 export default function Dictionary() {
@@ -15,7 +14,6 @@ export default function Dictionary() {
   //documentation https://api.dictionaryapi.dev;
   let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${searchTerm}`;
   //console.log(apiUrl);
-
 
   function handleSearchTerm(event) {
     setSearchTerm(event.target.value);
@@ -56,7 +54,7 @@ export default function Dictionary() {
     <div className="dictionary mb-3">
       <section className="text-center">
         <h1 className="text-center">What are you looking for?</h1>
-        <form onSubmit={searchDefinitions}>
+        <form onSubmit={searchDefinitions} className="form">
           <input
             className="search-field"
             type="search"

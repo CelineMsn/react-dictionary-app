@@ -16,8 +16,8 @@ function App() {
         </header>
         <main>
           <Dictionary />
+          <Footer />
         </main>
-        <Footer />
       </div>
     </div>
   );

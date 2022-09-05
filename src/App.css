@@ -1,8 +1,4 @@
 :roots {
-  --medium-green: #9fd3c7;
-  --light-blue: #d9ecf0;
-  --medium-blue: #76c2e4;
-  --dark-blue: #1f7fa8;
   --font-heading: "Poppins", sans-serif;
   --font-body: "Roboto", sans-serif;
   --radius: 15px;
@@ -32,16 +28,14 @@ body,
 }
 
 section {
-  background-color:rgba(234, 220, 201, 0.4);
+  background-color: rgba(234, 220, 201, 0.4);
   border-radius: 15px;
   box-shadow: 8px 10px 12px rgba(54, 119, 143, 0.2);
-  color: var(--dark-blue);
   font-family: var(--font-body);
   font-size: 13pt;
   padding: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
-  
 }
 
 h1,
@@ -53,35 +47,13 @@ h6 {
   font-family: var(--font-heading);
 }
 a {
-  color: var(--medium-blue);
+  color: black;
 }
 a:hover {
-  color: var(--dark-blue);
-  transition-duration: var(--transition);
+  color: black;
+  transition-duration: 200ms;
 }
-.button {
-  background-color: var(--dark-blue);
-  border-radius: var(--radius);
-  color: var(--light-blue);
-}
-.button:hover {
-  background-color: var(--medium-blue);
-  color: var(--light-blue);
-  transition-duration: var(--transition);
-}
-.button:focus {
-  background-color: var(--dark-blue);
-  color: var(--light-blue);
-}
-.sr-logo {
-  border-radius: 100px;
-  display: block;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 12px;
-  max-width: 100%;
-  width: 350px;
-}
+
 @media (min-width: 768px) {
   .App {
     padding-left: 10%;

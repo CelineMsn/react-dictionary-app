@@ -7,16 +7,14 @@ h1 {
   margin-bottom: 30px;
 }
 form {
-  margin-bottom: 30px;
+  margin: 10px auto 30px auto ;
   max-width: 90%;
   border-color: black;
 }
 .search-field {
-  background-color: var(--light-blue);
   border: 1px solid #ddd;
-  border-radius: var(--radius);
-  color: var(--medium-blue);
-  margin: auto;
+  border-radius: 20px;
+  margin: 0 auto;
   padding: 8px 12px;
 }
 .search-button {
