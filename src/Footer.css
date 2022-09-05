@@ -1,9 +1,24 @@
 .react-logo {
   font-size: 39pt;
-  text-align: center;
+  justify-content: center;
 }
+
+.oscode {
+  margin-left: -80px;
+}
+
+.portfolio {
+  margin-left: 40px;
+}
+
 @media (max-width: 576px) {
   .react-logo-container {
     display: none;
+  }
+  .oscode {
+    margin-left: 0px;
+  }
+  .portfolio {
+    margin-left: 40px;
   }
 }

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="row-fluid d-flex">
-        <div className="col-5 footer-links text-start ps-5 mt-3">
+        <div className="portfolio col-5 footer-links text-start mt-3">
           <span>
             <i className="fa-solid fa-book"></i>
           </span>{" "}
@@ -20,10 +20,10 @@ export default function Footer() {
             Portfolio
           </a>
         </div>
-        <div className="col-2 react-logo-container text-center">
+        <div className="col-2 react-logo">
           <i className="fa-brands fa-react react-logo"></i>
         </div>
-        <div className="col-5 footer-links text-end pe-5 mt-3">
+        <div className="oscode col-5 footer-links text-end mt-3">
           <a
             href="https://github.com/CelineMsn"
             target="_blank"
@@ -33,7 +33,7 @@ export default function Footer() {
           >
             OS code
           </a>{" "}
-          by CM{" "}
+
           <span>
             <i className="fa-brands fa-github"></i>
           </span>
