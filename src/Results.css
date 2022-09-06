@@ -6,9 +6,18 @@
 }
 .button-container {
   margin: 15px 0px;
-
 }
 .jump-link {
   padding: 10px 20px 10px 18px;
   text-decoration: none;
+}
+.wordplay {
+  background-color: #fafafa;
+  border: solid 3.5px black;
+  border-radius: 15px;
+  box-shadow: 8px 10px 12px rgba(54, 119, 143, 0.2);
+  font-family: var(--font-body);
+  font-size: 13pt;
+  padding: 15px;
+  margin-top: 15px auto;
 }

@@ -49,6 +49,16 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <div className="wordplay">
+        <lottie-player
+          src="https://assets5.lottiefiles.com/packages/lf20_my8voqwy.json"
+          speed="0.5"
+          id="animation"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    );
   }
 }
