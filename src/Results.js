@@ -6,26 +6,21 @@ import Meaning from "./Meaning";
 export default function Results(props) {
   if (props.data) {
     return (
-      <div className="results section-box">
-        <section>
-          <div className="button-container text-center ">
+      <div className="results">
+        <section className="section-box-table">
+          <div className="button-container text-center">
             <a href="./#phonetics" className="btn jump-link">
-              <i className="small">Jump to </i>
-              <br /> Phonetics
+              Phonetics
             </a>
             <a href="./#definitions" className="btn jump-link">
-              <i className="small">Jump to </i>
-              <br />
               Definitions
             </a>
             <a href="./#images" className="btn jump-link">
-              <i className="small">Jump to </i>
-              <br />
               Images
             </a>
           </div>
         </section>
-        <section>
+        <section className="section-box">
           <h2 className="result-word" id="phonetics">
             {props.data.word}{" "}
           </h2>
@@ -37,7 +32,7 @@ export default function Results(props) {
             );
           })}
         </section>
-        <div id="definitions">
+        <div id="definitions" className="section-box">
           {props.data.meanings.map(function (meaning, index) {
             return (
               <div key={index}>
