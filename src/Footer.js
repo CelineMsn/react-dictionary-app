@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import portfolio from "./img/portfolio.png";
 
 export default function Footer() {
   return (

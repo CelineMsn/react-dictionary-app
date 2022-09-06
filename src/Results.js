@@ -6,9 +6,9 @@ import Meaning from "./Meaning";
 export default function Results(props) {
   if (props.data) {
     return (
-      <div className="results">
+      <div className="results section-box">
         <section>
-          <div className="button-container text-center">
+          <div className="button-container text-center ">
             <a href="./#phonetics" className="btn jump-link">
               <i className="small">Jump to </i>
               <br /> Phonetics

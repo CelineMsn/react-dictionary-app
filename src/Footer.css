@@ -1,6 +1,7 @@
 .react-logo {
   font-size: 39pt;
   justify-content: center;
+  margin-left: -10px;
 }
 
 .oscode {
@@ -9,6 +10,14 @@
 
 .portfolio {
   margin-left: 40px;
+}
+
+.footer {
+  background-color: rgba(234, 220, 201, 0.4);
+  border-radius: 15px;
+  box-shadow: 8px 10px 12px rgba(54, 119, 143, 0.2);
+  font-family: var(--font-body);
+  font-size: 13pt;
 }
 
 @media (max-width: 576px) {
