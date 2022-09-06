@@ -8,20 +8,19 @@
 body,
 .App {
   position: relative;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	background-image: url("img/dicotable.jpg");
-	background-position: center;
-	background-size:cover;
-	background-attachment: fixed;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-image: url("img/dicotable.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
-
 
 .app-logo {
   max-width: 200px;
@@ -31,7 +30,6 @@ body,
 
 .app-header {
   margin: 30px 5px;
-  
 }
 
 section {

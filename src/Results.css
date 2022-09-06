@@ -32,11 +32,12 @@
 }
 
 .section-box-table {
-  background-color: #524b3a;
+  background-color: #33291B;
   color: #fafafa;
   border: dashed 1.5px black;
   border-radius: 15px;
   box-shadow: 8px 10px 12px rgba(54, 119, 143, 0.2);
   font-family: var(--font-body);
   font-size: 13pt;
+  opacity: 0.8;
 }
