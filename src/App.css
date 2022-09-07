@@ -58,7 +58,6 @@ a:hover {
   color: black;
   transition-duration: 200ms;
 }
-
 @media (min-width: 768px) {
   .App {
     padding-left: 10%;
