@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer mb-5">
       <div className="row-fluid d-flex">
         <div className="portfolio col-5 footer-links text-start mt-3">
           <span>

@@ -14,10 +14,11 @@ function App() {
             alt="logo dictionary app celine"
           />
         </header>
-        <main>
+        <main className="pb-2">
           <Dictionary />
           <Footer />
         </main>
+       
       </div>
     </div>
   );
