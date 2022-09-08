@@ -14,7 +14,7 @@ function App() {
             alt="logo dictionary app celine"
           />
         </header>
-        <main className="pb-2">
+        <main className="pb-1">
           <Dictionary />
           <Footer />
         </main>

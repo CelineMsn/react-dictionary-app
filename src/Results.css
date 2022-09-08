@@ -21,6 +21,20 @@
   margin: 15px auto;
 }
 
+@media (max-width: 770px) {
+  .wordplay {
+    background-color: #fafafa;
+    border: dashed 1.5px black;
+    border-radius: 15px;
+    box-shadow: 8px 10px 12px rgba(54, 119, 143, 0.2);
+    font-family: var(--font-body);
+    font-size: 13pt;
+    padding: 15px;
+    max-width: 100%;
+    margin: 15px auto;
+  }
+}
+
 .section-box {
   background-color: #fafafa;
   border: dashed 1.5px black;
@@ -33,7 +47,7 @@
 }
 
 .section-box-table {
-  background-color: #33291B;
+  background-color: #33291b;
   color: #fafafa;
   border: dashed 1.5px black;
   border-radius: 15px;
