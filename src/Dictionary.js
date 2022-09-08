@@ -51,10 +51,10 @@ export default function Dictionary() {
   }
 
   return (
-    <div className="dictionary mb-3">
+    <div className="dictionary mb-3 mt-5 pt-5">
       <section className="text-center">
-        <h1 className="text-center">What are you looking for?</h1>
-        <form onSubmit={searchDefinitions} className="form">
+        <h1 className="text-center mt-5 mb-5">What are you looking for?</h1>
+        <form onSubmit={searchDefinitions} className="form mb-5">
           <input
             className="search-field"
             type="search"
@@ -63,7 +63,7 @@ export default function Dictionary() {
             onChange={handleSearchTerm}
           />
           <br />
-          <button className="mb-1 btn button search-button" type="submit">
+          <button className="mt-4 btn button search-button" type="submit">
             <i className="fa-solid fa-magnifying-glass"></i> Search
           </button>
         </form>
